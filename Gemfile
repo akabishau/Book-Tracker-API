@@ -6,6 +6,8 @@ ruby "3.2.2"
 gem "bcrypt", "~> 3.1.7"
 gem "bootsnap", require: false
 gem "debug", platforms: %i[mri mingw x64_mingw], groups: [:development, :test]
+gem "devise"
+gem "devise_token_auth"
 gem "dotenv-rails", groups: [:development, :test]
 gem "httparty"
 gem "pg", "~> 1.1"
