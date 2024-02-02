@@ -12,6 +12,7 @@ gem "dotenv-rails", groups: [:development, :test]
 gem "httparty"
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
+gem "rack-cors"
 gem "rails", "~> 7.0.8"
 gem "rubocop", groups: [:development]
 gem "rubocop-rails", groups: [:development]
